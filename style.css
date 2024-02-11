@@ -4,6 +4,7 @@ body {
     margin-left: 50px;
     margin-right: none;
     margin-top: none;
+    background-image: url("C:\Users\Dell\OneDrive\Desktop\b3k5y\Image\main.png");
 }
 
 header {
@@ -36,15 +37,14 @@ header {
 
 .img-bckgrnd {
     height: 500px;
-    background-image: url("flex1.png");
+    background-image: url("C:\Users\Dell\OneDrive\Desktop\b3k5y\Image\main.png");
 }
 
 p{
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .section{
-    /* margin-top: 30px; */
     margin-bottom: 50px;
 }
 
