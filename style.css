@@ -35,9 +35,21 @@ header {
     color: white;
 }
 
-.img-bckgrnd {
-    height: 500px;
+#img-bckgrnd {
     background-image: url("C:\Users\Dell\OneDrive\Desktop\b3k5y\Image\main.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+button{
+    background-color: grey;
+    opacity: 25%;
+    color: white;
+    height: 60px;
+    width: 120px;
+    font-size: 24px;
+    border-radius: 12px;
+    border: none;
 }
 
 p{
@@ -52,3 +64,5 @@ p{
     font-size: 24px;
     font-weight: lighter;
 }
+
+
