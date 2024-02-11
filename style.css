@@ -1,44 +1,129 @@
 body {
     background-color: black;
     color: white;
-    margin-left: 50px;
+    /* margin-left: 50px; */
     margin-right: none;
     margin-top: none;
+    font-family: sans-serif;
     background-image: url("C:\Users\Dell\OneDrive\Desktop\b3k5y\Image\main.png");
 }
 
+.container {
+    margin-inline: 1.5rem;
+}
+
 header {
-    height: 80px;
+    height: 50px;
     background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: none;
-    margin-right: 50px;
-    flex-wrap: wrap;
-   
+    margin-inline: 2rem;
+    margin-bottom: 1.5rem;
+    /* margin-right: 50px; */
+    flex-wrap: wrap; 
+}
+
+.logo img{
+    width: 100px;
 }
 
 .middle-h {
-    font-size: 24px;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    row-gap: 3rem;
+  }
+
+ li{
+    font-size: 15px;
+    display: flex;
+    list-style: none;
+    margin: .5rem;
     color: white;
+    cursor: pointer;
 }
 
 .end-h {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    font-size: 24px;
+    font-size: 1rem;
     color: white;
+    cursor: pointer;
 }
 
 #img-bckgrnd {
-    background-image: url("C:\Users\Dell\OneDrive\Desktop\b3k5y\Image\main.png");
+    height: 100vh;
+    width: 100%;
+    background-image: url("Image/main.png");
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.home-container{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    flex-direction: column;
+}
+
+.home-title{
+    position: relative;
+}
+
+.home-title h1{
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    font-size: 3rem;
+    margin-top: 15rem;
+    font-weight: 800;
+}
+
+.home-title span{
+    position: absolute;
+    top: 16.5rem;
+    bottom: 0;
+    left: 5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+.home-subtitle {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: .1rem;
+}
+
+ .home-subtitle .icon {
+    /* height: 20px;
+    width: 20px; */
+    margin: 1.5rem;
+    padding: .25rem;
+    background-color: rgb(174, 23, 23);
+    border-radius: .15rem;
+}
+
+.home-subtitle .icon .text,
+.home-subtitle .icon .num {
+    font-size: .675rem;
+}
+
+.home-subtitle .bold-paragraph{
+    font-weight: bolder;
+}
+
+.home-container p {
+    width: 50%;
+    font-size: 1rem;
+    text-align: initial;
 }
 
 button{
